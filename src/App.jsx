@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Camera, User, Briefcase, Code, Rocket, Mail, Phone, Linkedin, Github, GraduationCap, ChevronDown, ChevronUp, Menu, X, Download, ExternalLink, Brain, Database, BarChart3, Languages, Target, Award, Zap, Star, Sparkles, Calendar, MapPin, Clock } from 'lucide-react';
-const BASE_URL = '/portfolio-imaneelwarraqi';
+const BASE_URL = import.meta.env.BASE_URL;
 // ============= CONFIGURATION =============
 const CONFIG = {
   personal: {
