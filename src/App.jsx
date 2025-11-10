@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Camera, User, Briefcase, Code, Rocket, Mail, Phone, Linkedin, Github, GraduationCap, ChevronDown, ChevronUp, Menu, X, Download, ExternalLink, Brain, Database, BarChart3, Languages, Target, Award, Zap, Star, Sparkles, Calendar, MapPin, Clock } from 'lucide-react';
-
+const BASE_URL = '/portfolio-imaneelwarraqi';
 // ============= CONFIGURATION =============
 const CONFIG = {
   personal: {
@@ -10,7 +10,7 @@ const CONFIG = {
     school: "ENSA Khouribga",
     year: "5ème année",
     availability: "Disponible pour un stage PFE 2026",
-    image: "/assets/imanee.png"
+    image: `${BASE_URL}/assets/imanee.png`
   },
   contact: {
     email: "elwarraqiimane@gmail.com",
@@ -19,9 +19,9 @@ const CONFIG = {
     github: "https://github.com/EL-warraqi-Imane"
   },
   cv: {
-    DA: "/assets/ELwarraqi_Imane_PFE_DA.pdf",
-    DS: "/assets/ELwarraqi_Imane_CV_Data.pdf",
-    DE: "/assets/ELwarraqi_Imane_CV_DE.pdf"
+    DA: `${BASE_URL}/assets/ELwarraqi_Imane_PFE_DA.pdf`,
+    DS: `${BASE_URL}/assets/ELwarraqi_Imane_CV_Data.pdf`,
+    DE: `${BASE_URL}/assets/ELwarraqi_Imane_CV_DE.pdf`
   },
   stats: [
     { number: '6+', label: 'Projets Data', icon: Target },
