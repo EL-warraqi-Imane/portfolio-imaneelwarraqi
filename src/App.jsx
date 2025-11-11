@@ -15,7 +15,7 @@ const CONFIG = {
   contact: {
     email: "elwarraqiimane@gmail.com",
     phone: "+212 613 563 708",
-    linkedin: "https://linkedin.com/in/imane-el-warraqi",
+    linkedin: "https://linkedin.com/in/imane-el-warraqi-702a16281",
     github: "https://github.com/EL-warraqi-Imane"
   },
   cv: {
