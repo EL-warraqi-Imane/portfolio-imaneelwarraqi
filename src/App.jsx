@@ -20,7 +20,7 @@ const CONFIG = {
   },
   cv: {
     DA: `${BASE_URL}/assets/ELwarraqi_Imane_PFE_DA.pdf`,
-    DS: `${BASE_URL}/assets/ELwarraqi_Imane_CV_Data.pdf`,
+    DS: `${BASE_URL}/assets/ELWARRAQI_IMANE_DS.pdf`,
     DE: `${BASE_URL}/assets/ELwarraqi_Imane_CV_DE.pdf`
   },
   stats: [
@@ -542,8 +542,8 @@ const ExperienceSection = ({ setActiveSection }) => {
       date: 'Juillet - Septembre 2025',
       title: 'Stagiaire Data Science',
       company: 'Moteur de Recherche Réglementaire Intelligent',
-      location: 'Casablanca, Maroc',
-      type: 'Stage de fin d\'études',
+      location: 'Rabat, Maroc',
+      type: 'Stage de fin d\'année',
       duration: '2 mois',
       description: 'Développement d\'un système de recherche sémantique avancé utilisant BERT pour l\'extraction d\'entités juridiques dans la réglementation marocaine.',
       achievements: [
