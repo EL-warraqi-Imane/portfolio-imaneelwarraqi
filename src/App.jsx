@@ -20,7 +20,7 @@ const CONFIG = {
   },
   cv: {
     DA: `${BASE_URL}/assets/ELwarraqi_Imane_PFE_DA.pdf`,
-    DS: `${BASE_URL}/assets/ELWARRAQI_IMANE_CV_Data.pdf`,
+    DS: `${BASE_URL}/assets/ELwarraqi_Imane_CV_Data.pdf`,
     DE: `${BASE_URL}/assets/ELwarraqi_Imane_CV_DE.pdf`
   },
   stats: [
