@@ -20,7 +20,7 @@ const CONFIG = {
   },
   cv: {
     DA: `${BASE_URL}/assets/ELwarraqi_Imane_PFE_DA.pdf`,
-    DS: `${BASE_URL}/assets/ELWARRAQI_IMANE_DS.pdf`,
+    DS: `${BASE_URL}/assets/ELWARRAQI_IMANE_CV_Data.pdf`,
     DE: `${BASE_URL}/assets/ELwarraqi_Imane_CV_DE.pdf`
   },
   stats: [
@@ -31,7 +31,7 @@ const CONFIG = {
   ]
 };
 
-// ============= ANIMATIONS & EFFECTS =============
+// ============= ANIMATIONS & EFFECTS ==============
 const ParticleBackground = () => {
   const canvasRef = useRef(null);
 
